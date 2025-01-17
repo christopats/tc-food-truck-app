@@ -21,7 +21,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
   }
 }
 
-rootProject.name = 'foodtruckmobile'
+rootProject.name = 'food-truck-mobile'
 
 dependencyResolutionManagement {
   versionCatalogs {
