@@ -1,4 +1,4 @@
-package com.foodtruckmobile
+package com.christopats.foodtruckmobile
 
 import android.os.Build
 import android.os.Bundle

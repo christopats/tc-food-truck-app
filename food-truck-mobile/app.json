@@ -18,7 +18,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.christopats.foodtruckmobile"
+      "package": "com.christopats.foodtruckmobile",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro",

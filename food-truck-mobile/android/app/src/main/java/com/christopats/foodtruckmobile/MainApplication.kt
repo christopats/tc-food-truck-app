@@ -1,4 +1,4 @@
-package com.foodtruckmobile
+package com.christopats.foodtruckmobile
 
 import android.app.Application
 import android.content.res.Configuration
