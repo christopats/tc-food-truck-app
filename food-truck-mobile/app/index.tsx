@@ -1,8 +1,15 @@
+import { useRouter } from "expo-router";
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Button } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 
-const MyMapApp = () => {
+const HomeScreen = () => {
+  const router = useRouter();
+
+  const navigateToAuth = () => {
+    router.push("/(auth)/login");
+  };
+
   return (
     <View style={styles.container}>
       <MapView
@@ -20,6 +27,7 @@ const MyMapApp = () => {
           description="Marker Description"
         />
       </MapView>
+      <Button title="Go to Auth Page" onPress={navigateToAuth} />
     </View>
   );
 };
@@ -34,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MyMapApp;
+export default HomeScreen;
